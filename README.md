@@ -6,6 +6,8 @@ account and prints out the transactions which are in one journal file but not
 in the other.  This is particularly useful for reconciling existing journals
 with bank statements.
 
+hledger-diff was [merged into hledger][merge].
+
 ## Installation
 
 ```
@@ -26,3 +28,5 @@ Unmatched transactions in the first journal:
 Unmatched transactions in the second journal:
 
 ```
+
+[merge]: https://github.com/simonmichael/hledger/pull/981
